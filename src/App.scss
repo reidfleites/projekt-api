@@ -1,0 +1,85 @@
+body{
+  background-color:black;
+  flex-direction: column;
+  align-items: center;
+}
+.App {
+  flex-direction: column;
+  justify-content: center;
+  background-color:black;
+  height:100%;
+  color:white;
+
+
+  .header{
+    display: flex;
+    justify-content: center;
+    h1{
+      color:yellow;
+    }
+   
+  }
+  .dictionary{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 10px;
+    
+    .search-icon{
+      color:yellow;
+     
+    }
+    .div-mean{
+      margin-left: 3em;
+      margin-bottom:0.5em;
+    }
+    .sound-icon{
+      color:red;
+    }
+    .button-search{
+      background-color: black;
+      border: none;
+      border:yellow 0.5px solid;
+    }
+    .button-sound{
+      background-color: black;
+      border:none;
+      border:red 0.5px solid;
+      margin-left:1em;
+      
+    }
+    input{
+     
+      border:1px solid white;
+      border-top: 2px solid white;
+    }
+    img{
+      margin-top:5em;
+    }
+    
+    h2{
+      color:yellow;
+    }
+    span{
+      color:yellow;
+      
+    }
+   
+    .definition{
+      color:red;
+    }
+    .ex{
+      color:lime;
+    }
+    .mean{
+      color:red;
+    }
+    .def{
+      color:yellow;
+    }
+    input{
+      margin-top: 1em;
+    }
+  }
+}
+
