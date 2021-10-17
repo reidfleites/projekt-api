@@ -15,7 +15,7 @@ function Header(){
         index.current++;
       }
        if (index.current < dic.length) {
-        let addChar = setInterval(showHeader, 300);
+        let addChar = setInterval(showHeader, 1000);
         return () => clearInterval(addChar);
       }
       if(headertext.length===10){
