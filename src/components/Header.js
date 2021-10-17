@@ -23,7 +23,7 @@ function Header(){
           setInterval((()=>{setFlag(true);
             setHeaderSize('48px');
           setSize('32px');
-        }),2000);
+        }),4000);
           
       }
    },[headertext,setFlag])
