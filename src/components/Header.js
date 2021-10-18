@@ -15,7 +15,7 @@ function Header(){
         index.current++;
       }
        if (index.current < dic.length) {
-        let addChar = setInterval(showHeader, 1000);
+        let addChar = setInterval(showHeader, 300);
         return () => clearInterval(addChar);
       }
       if(headertext.length===10){
@@ -23,7 +23,7 @@ function Header(){
           setInterval((()=>{setFlag(true);
             setHeaderSize('48px');
           setSize('32px');
-        }),4000);
+        }),2000);
           
       }
    },[headertext,setFlag])
